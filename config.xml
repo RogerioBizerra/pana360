@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.myapp.mobile" version="1.0" xmlns="http://www.w3.org/ns/widgets">
+	<name>Linha de Eletrodomésticos Panasonic</name>
+	<description>Os produtos Panasonic fazem a diferença na vida da Fernanda Lima. Clique e descubra o que eles podem fazer pelo seu. #repense</description>
+	<author email="contato@rtpublicity.com.br" href="http://rtpublicity.com.br/sites/panasonic/hub-offilne-lavadora">Linha de Eletrodomésticos Panasonic</author>
+	<preference name="phonegap-version" value="cli-6.5.0" />
+	<preference name="permissions" value="none" />
+	<preference name="orientation" value="landscape" />
+	<preference name="target-device" value="universal" />
+	<preference name="fullscreen" value="true" />
+
+	<plugin name="cordova-plugin-inappbrowser" spec="1.6.1" />
+	<plugin name="cordova-plugin-device" spec="1.1.4" />
+	<plugin name="cordova-plugin-splashscreen" spec="4.0.1" />
+	<plugin name="cordova-plugin-whitelist" source="npm" spec="1.3.2" />
+	<allow-navigation href="*" />
+	<allow-intent href="*" />
+	<access origin="*" /> <!-- Required for iOS9 -->
+
+	<icon src="icon.png" width="512" height="512" /> 
+
+	<platform name="android">
+		<icon src="pilhas/icons/icon-36.png" qualifier="ldpi" />
+		<icon src="pilhas/icons/icon-48.png" qualifier="mdpi" />
+		<icon src="pilhas/icons/icon-72.png" qualifier="hdpi" />
+		<icon src="pilhas/icons/icon-96.png" qualifier="xhdpi" />
+		<icon src="pilhas/icons/icon-144.png" qualifier="xxhdpi" />
+		<icon src="pilhas/icons/icon-192.png" qualifier="xxxhdpi" />
+	</platform>
+</widget>
